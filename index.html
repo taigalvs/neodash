@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Dashboard NeoPDV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu-overlay"></div>
+      <nav class="navbar-wrapper">
+        <div class="logo">
+          <img src="./assets/logoneo.png" alt="logo neo" width="220px" />
+        </div>
+        <div class="navbar-list">
+          <ul>
+            <a href="#"
+              ><li class="active">
+                <i class="fas fa-chart-bar"></i>Dashboard
+              </li></a
+            >
+            <a href="#"
+              ><li>
+                <i class="fas fa-folder-plus"></i>Cadastro<i
+                  class="fas fa-caret-down"
+                ></i></li
+            ></a>
+            <a href="#"
+              ><li>
+                <i class="fas fa-box"></i>Estoque
+                <i class="fas fa-caret-down"></i></li
+            ></a>
+            <a href="#"
+              ><li>
+                <i class="fas fa-th-list"></i>Listas e Relatórios
+                <i class="fas fa-caret-down"></i></li
+            ></a>
+            <a href="#"
+              ><li>
+                <i class="fas fa-cog"></i>Configuração<i
+                  class="fas fa-caret-down"
+                ></i></li
+            ></a>
+          </ul>
+        </div>
+        <div class="navbar-profile">
+          <img src="./assets/profile-img.png" alt="" />
+          <span> Roberto Torres</span> <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </nav>
+      <div class="main-content">
+        <i class="fas fa-bars openMenu"></i>
+        <i class="fas fa-times closeMenu"></i>
+        <div>
+          <h2>Olá Roberto!</h2>
+        </div>
+        <div class="header-search">
+          <i class="fas fa-question-circle"></i>
+          <input type="text" value="21/06/2021 - 21/06/2021" />
+        </div>
+      </div>
+      <main>
+        <div class="cards">
+          <div class="card-single">
+            <div class="card-left">
+              <i class="fas fa-hand-holding-usd"></i>
+              <h3>Total de vendas</h3>
+              <p>R$ 5020,01</p>
+            </div>
+            <div class="card-right">
+              <h4>Quantidade de Vendas</h4>
+              <span>0</span>
+              <h4>Ticket Médio</h4>
+              <span>R$ 920,00</span>
+              <h4>Itens Vendidos</h4>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="card-single">
+            <div class="card-left">
+              <i class="fas fa-piggy-bank"></i>
+              <h3>Lucro Bruto</h3>
+              <p>R$ 109.867,00</p>
+            </div>
+            <div class="card-right">
+              <h4>Venda Líquida</h4>
+              <span>R$ 98.689,00</span>
+              <h4>Venda Custo</h4>
+              <span>R$ 0,00</span>
+              <h4>% de lucro</h4>
+              <span>200.00%</span>
+            </div>
+          </div>
+          <div class="card-single">
+            <div class="card-left">
+              <i class="fas fa-shopping-basket"></i>
+              <h3>Estoque Total</h3>
+              <p>208</p>
+            </div>
+            <div class="card-right">
+              <h4>Estoque Custo</h4>
+              <span>R$ 1008,00</span>
+              <h4>Estoque Venda</h4>
+              <span>R$ 911,00</span>
+              <h4>Lucro Estimago</h4>
+              <span>R$7.657,00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards-second">
+          <div class="card-single sales-period">
+            <div>
+              <h3>Vendas no período</h3>
+            </div>
+            <div>
+              <h4>Não há vendas para mostrar nesse período</h4>
+            </div>
+          </div>
+          <div class="card-single type-payment">
+            <div>
+              <h3>Tipos de pagamento</h3>
+            </div>
+            <div>
+              <h4>Não há nenhum registro para o filtro selecionado.</h4>
+            </div>
+          </div>
+          <div class="card-single type-payment">
+            <div>
+              <h3>Maiores clientes</h3>
+            </div>
+            <div>
+              <h4>Não há nenhum registro para o filtro selecionado.</h4>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
